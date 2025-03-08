@@ -5,11 +5,20 @@ body {
     padding: 20px;
 }
 
-.container {
+.container1 {
     max-width: 400px;
     margin: auto;
     background: white;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 5px 35px 5px 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

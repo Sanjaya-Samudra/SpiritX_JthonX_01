@@ -39,3 +39,17 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
     }
 });
 
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const loginUsername = document.getElementById('loginUsername').value;
+    const loginPassword = document.getElementById('loginPassword').value;
+
+    // Simulate validation
+    if (loginUsername === 'testuser' && loginPassword === 'Password123!') {
+        document.getElementById('welcomeMessage').innerText = `Hello, ${loginUsername}!`;
+        document.getElementById('welcomeMessage').classList.remove('hidden');
+    } else {
+        document.getElementById('loginUsernameError').innerText = 'Invalid username or password.';
+        document.getElementById('loginPasswordError').innerText = '';
+    }
+});
