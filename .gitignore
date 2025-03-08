@@ -1,38 +1,27 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignore node_modules
+node_modules/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+# Ignore npm debug logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Ignore environment variables
+.env
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# Ignore OS generated files
 .DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore JSON files
+*.json
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore coverage reports
+coverage/
