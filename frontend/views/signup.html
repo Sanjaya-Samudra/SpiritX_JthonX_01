@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signup</title>
+  <title>Sign Up</title>
   <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
-  <h1>Signup</h1>
+
   <form id="signup-form">
-    <input type="text" id="username" placeholder="Username">
+    <h1>Sign Up</h1>
+    <label for ="username">Username</label>
+    <input type="text" id="username" placeholder="Enter your Username">
     <span id="username-error"></span>
 
-    <input type="password" id="password" placeholder="Password">
+    <label for ="password">Password</label>
+    <input type="password" id="password" placeholder="Enter you Password">
     <span id="password-error"></span>
 
-    <input type="password" id="confirm-password" placeholder="Confirm Password">
+    <label for ="confirm password">Confirm Password</label>
+    <input type="password" id="confirm-password" placeholder="Re enter your Password">
     <span id="confirm-password-error"></span>
 
-    <button type="submit">Sign Up</button>
+    <button type="submit">Submit</button>
   </form>
   <script src="../js/signup.js"></script>
 </body>

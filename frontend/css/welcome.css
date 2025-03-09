@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background: linear-gradient(180deg, #FFF 0%, #49B6FF 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +15,17 @@ body {
   }
   
   button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #00FED9;
+    color: rgb(0, 0, 0);
     border: none;
-    border-radius: 3px;
+    border-radius: 30px;
     cursor: pointer;
+    font-weight: bold;
   }
   
   button:hover {
