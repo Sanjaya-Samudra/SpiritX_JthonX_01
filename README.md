@@ -12,6 +12,8 @@ CREATE TABLE users (
 
 Run following commands
 
+Please change the password to your own in the database.js in config folder
+
 1. cd backend
 
 2. npm init
@@ -23,4 +25,5 @@ Run following commands
 5. npm install express body-parser cors mysql bcrypt
 
 run this to connect server with database
+
 6. node server.js
